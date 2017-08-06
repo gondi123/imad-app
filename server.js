@@ -20,7 +20,7 @@ function template(data){
     var heading=data.heading;
     var  subheading=data.subheading;
     var content=data.content;
-var htmltempalte=`
+var htmltemplate=`
 <html>
     <head>
         <title>${article}</title>
