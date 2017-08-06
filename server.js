@@ -49,7 +49,7 @@ var htmltempalte=`
     
 </html>
 `; 
-return htmltemplate
+return htmltemplate;
     
 }
 
