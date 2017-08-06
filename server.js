@@ -15,7 +15,8 @@ var articleone={
             hi this is jeevan iwant to tell about me
         </article>`
     };
-function template(data){
+function template(data)
+{
     var article=data.title;
     var heading=data.heading;
     var  subheading=data.subheading;
@@ -36,7 +37,7 @@ var htmltemplate=`
         </h2>
         <hr/>
         <div>
-        <h3>${sub heading}</h3>
+        <h3>${subheading}</h3>
         </div>
         <div>
         <article>
