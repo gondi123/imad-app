@@ -13,7 +13,7 @@ var articleone={
     content:`<article>
             hi this is jeevan iwant to tell about me,hi this is jeevan iwant to tell about me,
             hi this is jeevan iwant to tell about me
-        </article>`,
+        </article>`
     };
 function template(data){
     var article=data.title;
