@@ -5,12 +5,62 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+
+var articleone={
+    title:"article",
+    heading:"HOME",
+    subheading:"about me",
+    content:`<article>
+            hi this is jeevan iwant to tell about me,hi this is jeevan iwant to tell about me,
+            hi this is jeevan iwant to tell about me
+        </article>`,
+    };
+function template(data){
+    var article=data.title;
+    var heading=data.heading;
+    var  subheading=data.subheading;
+    var content=data.content;
+var tempalte=`
+<html>
+    <head>
+        <title>${article}</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="hasura ,imad">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <link href="/ui/style.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div class="container">
+        <h2>
+          <a href="\">${heading}</a>
+        </h2>
+        <hr/>
+        <div>
+        <h3>${sub heading}</h3>
+        </div>
+        <div>
+        <article>
+            ${content}
+        </article>
+        </div>
+    </div>
+    </body>
+    
+</html
+
+
+`;    
+    
+}
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  res.send(template(articleone));
 });
 
 app.get('/ui/madi.png', function (req, res) {
