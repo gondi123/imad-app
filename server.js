@@ -47,7 +47,7 @@ var tempalte=`
     </div>
     </body>
     
-</html
+</html>
 
 
 `;    
