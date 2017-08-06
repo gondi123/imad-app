@@ -22,7 +22,7 @@ body {
 
 .container{
         max-width:800;
-        margin:0 auto;
+        margin:50;
         color:grey;
-        padding:50;
+        
 }
