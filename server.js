@@ -20,7 +20,7 @@ function template(data){
     var heading=data.heading;
     var  subheading=data.subheading;
     var content=data.content;
-var tempalte=`
+var htmltempalte=`
 <html>
     <head>
         <title>${article}</title>
@@ -48,9 +48,8 @@ var tempalte=`
     </body>
     
 </html>
-
-
-`;    
+`; 
+return htmltemplate
     
 }
 
