@@ -51,7 +51,7 @@ var htmltemplate=`
     <body>
         <div class="container">
         <h2>
-          <a href="/index.html">${heading}</a>
+          <a href="/">${heading}</a>
         </h2>
         <hr/>
         <div>
