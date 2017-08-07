@@ -37,8 +37,7 @@ function func(){
   
   var button=document.getElementById("submit");
   
-  button.onclick=function()
-  {
+  button.onClick=function(){
     var request=new XMLHttpRequest();
      
      request.onreadystatechange=function(){
