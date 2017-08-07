@@ -17,6 +17,6 @@ var counter=document.getElementById("counter");
 counter.onclick=function(){
   
   var span=document.getElementById("count");
-  span.innerHtml=count+1;
+  span.innerHTML=count+1;
     
 };
