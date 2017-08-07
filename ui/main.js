@@ -35,7 +35,7 @@ var button=document.getElementById("counter");
   };
   
   
-  var button=document.getElementById("submit");
+  var button=document.getElementById("btn");
   
   button.onclick=function()
   { var request=new XMLHttpRequest();
