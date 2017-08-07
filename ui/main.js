@@ -6,6 +6,6 @@ img.onClick=function(){
 };
 function moveRight(){
     var s=0;
-    s=img+5;
-    img.style.marginright=s+px;
+    s=s+5;
+    img.style.marginLeft=s+px;
 }
