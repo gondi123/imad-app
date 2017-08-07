@@ -23,7 +23,7 @@ var button=document.getElementById("counter");
          if(request.readyState===XMLHttpRequest.DONE){
              var counter=request.response;
              var span=document.getElementById("count");
-             span.innerHTML=count.toString();}
+             span.innerHTML=counter.toString();}
          
     };
      
