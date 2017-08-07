@@ -58,7 +58,7 @@ function func(){
     };
     var input=document.getElementById("input");
     var name=input.value;
-    request.open('GET',"http://ngondireddy.imad.hasura-app.io/counter",true);
+    request.open('GET',"http://ngondireddy.imad.hasura-app.io/submit-name?name="+name,true);
     request.send(null);  
       
       
