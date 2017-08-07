@@ -32,7 +32,8 @@ var button=document.getElementById("counter");
     request.open('GET',"http://ngondireddy.imad.hasura-app.io/counter",true);
     request.send(null);
      
+  };
   
-   
-    
-};
+  
+  
+  
