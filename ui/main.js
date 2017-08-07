@@ -12,11 +12,11 @@ function func(){
     img.style.marginLeft=s+"px";
     
 }
+var count=0;
 var counter=document.getElementById("counter");
 counter.onclick=function(){
   
-  counter=counter+1;
   var span=document.getElementById("count");
-  span.innerHtml=counter;
+  span.innerHtml=count+1;
     
 };
