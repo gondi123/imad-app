@@ -12,7 +12,7 @@ function func(){
     img.style.marginLeft=s+"px";
     
 }*/
-/*var button=document.getElementById("counter");
+var button=document.getElementById("counter");
  
  button.onclick=function()
  {
@@ -32,7 +32,7 @@ function func(){
     request.open('GET',"http://ngondireddy.imad.hasura-app.io/counter",true);
     request.send(null);
      
-  };*/
+  };
   
   
   var button=document.getElementById("submit");
