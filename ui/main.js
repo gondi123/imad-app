@@ -1,4 +1,4 @@
-console.log('Loaded!');
+/*console.log('Loaded!');
 
 var img=document.getElementById("mad");
 var s=0;
@@ -11,7 +11,7 @@ function func(){
     s=s+5;
     img.style.marginLeft=s+"px";
     
-}
+}*/
 var button=document.getElementById("counter");
 var count=0;
  
