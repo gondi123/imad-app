@@ -37,8 +37,8 @@ var button=document.getElementById("counter");
   
   var button=document.getElementById("submit");
   
-  button.onClick=function(){
-    var request=new XMLHttpRequest();
+  button.onclick=function()
+  { var request=new XMLHttpRequest();
      
      request.onreadystatechange=function(){
          
