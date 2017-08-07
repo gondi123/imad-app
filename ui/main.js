@@ -35,9 +35,9 @@ function func(){
   };*/
   
   
-  var submit=document.getElementById("submit");
+  var button=document.getElementById("submit");
   
-  submit.onclick=function()
+  button.onclick=function()
   {
     var request=new XMLHttpRequest();
      
