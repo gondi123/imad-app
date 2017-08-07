@@ -2,7 +2,7 @@ console.log('Loaded!');
 var img=document.getElementById("mad");
 img.onClick=function(){
     
-    var time=setInterval(moveRight,50);
+    var interval=setInterval(moveRight,50);
 };
 function moveRight(){
     var s=0;
